@@ -4,6 +4,8 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
 
 % Configuración del título
 
@@ -80,6 +82,7 @@ El conjunto de datos \texttt{Titanic} es un conjunto clásico que contiene infor
         \item \textbf{Freq}: El número de pasajeros que pertenecen a esa combinación de \texttt{Class}, \texttt{Sex}, \texttt{Age}, y \texttt{Survived}.
     \end{itemize}
     
+\end{enumerate}
     Supongamos que tienes la siguiente fila en el dataset:
     
     \begin{center}
@@ -96,7 +99,45 @@ El conjunto de datos \texttt{Titanic} es un conjunto clásico que contiene infor
     
     La columna \texttt{Freq} te permite ver cuántas personas están representadas por cada combinación de las otras variables, en lugar de tener una fila separada para cada pasajero individual.
     
+    % Imagen 1: Niños Varones Sobrevivientes por Clase
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ninos_varones_sobrevivientes_por_clase.png}
+    \caption{Cantidad de Niños Varones Sobrevivientes por Clase}
+    \label{fig:ninos_varones_sobrevivientes_por_clase}
+\end{figure}
 
-\end{enumerate}
+% Texto adicional o explicación aquí
+
+% Imagen 2: Hombres Adultos Sobrevivientes por Clase
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{hombres_adultos_sobrevivientes_por_clase.png}
+    \caption{Cantidad de Hombres Adultos Sobrevivientes por Clase}
+    \label{fig:hombres_adultos_sobrevivientes_por_clase}
+\end{figure}
+
+% Texto adicional o explicación aquí
+
+% Imagen 3: Mujeres Adultas Sobrevivientes por Clase
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{mujeres_adultas_sobrevivientes_por_clase.png}
+    \caption{Cantidad de Mujeres Adultas Sobrevivientes por Clase}
+    \label{fig:mujeres_adultas_sobrevivientes_por_clase}
+\end{figure}
+
+% Texto adicional o explicación aquí
+
+% Imagen 4: Niñas Sobrevivientes por Clase
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ninas_sobrevivientes_por_clase.png}
+    \caption{Cantidad de Niñas Sobrevivientes por Clase}
+    \label{fig:ninas_sobrevivientes_por_clase}
+\end{figure}
+
+% Texto adicional o explicación aquí
+
 
 \end{document}
