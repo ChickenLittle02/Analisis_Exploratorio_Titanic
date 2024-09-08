@@ -138,6 +138,34 @@ El conjunto de datos \texttt{Titanic} es un conjunto clásico que contiene infor
 \end{figure}
 
 % Texto adicional o explicación aquí
+\section{Matriz de Correlación}
+La matriz de correlación muestra la relación entre diferentes variables categóricas convertidas a numéricas en el dataset del Titanic. Algunos hallazgos clave son:
 
+\begin{figure}[h] % 'h' indica que la imagen debe aparecer aquí
+    \centering % Centra la imagen
+    \includegraphics[width=0.8\textwidth]{Correlacion.png}
+    \caption{Grafico de Calor , Correlaciones } % Título de la figura
+    \label{fig:mi_imagen} % Etiqueta para referencias cruzadas
+\end{figure}
+
+\subsection{Clase y Supervivencia}
+Es probable que se observe una correlación positiva entre \texttt{Class\_num} y \texttt{Survived\_num}, lo que sugiere que los pasajeros de primera clase tenían más probabilidades de sobrevivir en comparación con los de tercera clase o la tripulación.
+
+\subsection{Sexo y Supervivencia}
+Podría haber una correlación positiva entre \texttt{Sex\_num} y \texttt{Survived\_num}, indicando que las mujeres tenían una tasa de supervivencia más alta que los hombres.
+
+\subsection{Edad y Supervivencia}
+La correlación entre \texttt{Age\_num} y \texttt{Survived\_num} podría indicar que los niños (Child) tenían una mayor tasa de supervivencia en comparación con los adultos.
+
+\section{Prueba de Chi-Cuadrado}
+La prueba de chi-cuadrado se utilizó para determinar si existe una asociación significativa entre la clase de los pasajeros y su supervivencia. Si el valor p es menor que 0.05, se concluye que hay una relación significativa entre estas variables.
+
+Un valor p menor que 0.05 implica que ciertos grupos, como los pasajeros de primera clase, tenían más probabilidades de sobrevivir en comparación con aquellos de tercera clase o la tripulación. Esto sugiere que factores como la clase social influyeron en las tasas de supervivencia durante el desastre del Titanic.
+\begin{figure}[h] % 'h' indica que la imagen debe aparecer aquí
+    \centering % Centra la imagen
+    \includegraphics[width=0.8\textwidth]{Chi.png}
+    \caption{Chi -Cuadrado } % Título de la figura
+    \label{fig:mi_imagen} % Etiqueta para referencias cruzadas
+\end{figure}
 
 \end{document}
