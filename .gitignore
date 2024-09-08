@@ -3,3 +3,7 @@ Informe/titanic_description.fdb_latexmk
 Informe/titanic_description.fls
 Informe/titanic_description.log
 Informe/titanic_description.synctex.gz
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
